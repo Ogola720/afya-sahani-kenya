@@ -1,73 +1,81 @@
-# Welcome to your Lovable project
+# AFYA-SAHANI-KENYA
 
-## Project info
+Transforming Healthcare with Innovative Digital Solutions
 
-**URL**: https://lovable.dev/projects/dcbc13ed-540e-4848-b731-4705fad7a82d
+## Table of Contents
 
-## How can I edit this code?
+* [Overview](#overview)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Usage](#usage)
+* [Testing](#testing)
 
-There are several ways of editing your application.
+## Overview
 
-**Use Lovable**
+afya-sahani-kenya is a developer-focused toolkit designed to accelerate the development of scalable, accessible web applications. Built with a modern stack featuring React, TypeScript, Vite, Tailwind CSS, and Radix UI, it offers a rich library of UI components and utilities that streamline interface creation and enhance user experience.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/dcbc13ed-540e-4848-b731-4705fad7a82d) and start prompting.
+### Why afya-sahani-kenya?
 
-Changes made via Lovable will be committed automatically to this repo.
+This project aims to simplify building cohesive healthcare management platforms with a focus on accessibility, responsiveness, and developer productivity. The core features include:
 
-**Use your preferred IDE**
+* 🎨 Customizable UI Components: A comprehensive suite of accessible, styled components like dialogs, tabs, accordions, and more.
+* 🚀 Fast Development Environment: Optimized setup with Vite, TypeScript, and Tailwind CSS for rapid iteration and reliable builds.
+* 🔧 Utility Hooks & Functions: Tools for device detection, toast notifications, and class management to enhance interactivity.
+* 🌙 Themed Styling & Responsiveness: Support for dark mode, CSS variables, and responsive layouts for a seamless user experience.
+* 🏗️ Modular Architectural: Well-structured configs and components that promote maintainability and scalability.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+This project requires the following dependencies:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+* Programming Language: TypeScript
+* Package Manager: Npm
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Installation
 
-# Step 3: Install the necessary dependencies.
-npm i
+Build afya-sahani-kenya from the source and install dependencies:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Ogola720/afya-sahani-kenya
 ```
 
-**Edit a file directly in GitHub**
+2. Navigate to the project directory:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+cd afya-sahani-kenya
+```
 
-**Use GitHub Codespaces**
+3. Install the dependencies:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Using npm:
 
-## What technologies are used for this project?
+```bash
+npm install
+```
 
-This project is built with:
+## Usage
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Run the project with:
 
-## How can I deploy this project?
+Using npm:
 
-Simply open [Lovable](https://lovable.dev/projects/dcbc13ed-540e-4848-b731-4705fad7a82d) and click on Share -> Publish.
+```bash
+npm start
+```
 
-## Can I connect a custom domain to my Lovable project?
+## Testing
 
-Yes, you can!
+Afya-sahani-kenya uses the {test_framework} test framework. Run the test suite with:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Using npm:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```bash
+npm test
+```
+
+
